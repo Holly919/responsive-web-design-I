@@ -309,7 +309,17 @@ header .logo {
 	border-bottom: 1px solid black;
 	text-align: center;
 	padding: 20px 0px 20px 0px;
-	  }
+	}
+
+	.main-content .top-content {
+	flex-direction: column;
+	width: 100%;
+	}
+
+	.main-content .bottom-content {
+	flex-direction: column;
+	width: 100%;
+	}
 
 
 
