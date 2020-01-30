@@ -313,15 +313,17 @@ header .logo {
 
 	.main-content .top-content {
 	flex-direction: column;
-	width: 100%;
+	justify-content: space-between;
 	}
 
 	.main-content .bottom-content {
 	flex-direction: column;
-	width: 100%;
+	justify-content: space-between;
 	}
 
-
+	.main-content .text-content { 
+	margin-left: 0px;
+  }
 
 }
 
