@@ -263,6 +263,9 @@ header .logo {
 	margin: 0 auto;
 	}
 	
+	header nav {
+	width: 100%;	
+	}
 	header .logo {
 	padding-bottom: 20px;
 	margin-top: 0;
@@ -290,6 +293,12 @@ header .logo {
 	.middle-img {
 	width: 100%;	
 	}	
+	.services-header-img {
+	width: 100%;	
+	}
+	.services-info-img {
+		width: 50%;
+	}
   }
 
   @media ( max-width:500px) {
@@ -324,6 +333,12 @@ header .logo {
 	.main-content .text-content { 
 	margin-left: 0px;
   }
-
+ 	.services-info-img {
+	width: 100%;
+	padding-bottom: 20px;
+	}
+	.bottom-facts {
+	flex-direction: column-reverse;
+	}
 }
 
